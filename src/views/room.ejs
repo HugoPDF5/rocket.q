@@ -22,7 +22,7 @@
                 <img src="./images/logo.svg" alt="Rocket.Q logo"/>
                 </a>
                 <div class="buttons">
-                    <div class="button outlined">
+                    <div class="button outlined" id="room-id" data-id="323243">
                         #32343 
                         <img src="./images/copy.svg" alt="Copiar número da sala">
                     </div>
@@ -64,11 +64,11 @@
                                     </div>
                                 </div>
                                 <div class="actions">
-                                    <a href="#" class="check">
+                                    <a href="#" class="check" data-id="2">
                                         <img src="./images/check.svg" alt="Marcar como lido">
                                         Marcar como lida
                                     </a>
-                                    <a href="#" class="delete">
+                                    <a href="#" class="delete" data-id="2">
                                         <img src="./images/trash.svg" alt="Excluir">
                                         Excluir
                                     </a>
@@ -85,11 +85,11 @@
                                     </div>
                                 </div>
                                 <div class="actions">
-                                    <a href="#" class="check">
+                                    <a href="#" class="check" data-id="3">
                                         <img src="./images/check.svg" alt="Marcar como lido">
                                         Marcar como lida
                                     </a>
-                                    <a href="#" class="delete">
+                                    <a href="#" class="delete" data-id="3">
                                         <img src="./images/trash.svg" alt="Excluir">
                                         Excluir
                                     </a>
@@ -106,7 +106,7 @@
                                     </div>
                                 </div>
                                 <div class="actions">
-                                    <a href="#" class="delete">
+                                    <a href="#" class="delete" data-id="1">
                                         <img src="./images/trash.svg" alt="Excluir">
                                         Excluir
                                     </a>
@@ -125,7 +125,7 @@
                 <h2>Excluir pergunta</h2>
                 <p>Tem certeza que você deseja excluir esta pergunta?</p>
 
-                <form action="">
+                <form action="#" method="POST">
                     <label for="password" class="sr-only">Digite sua senha admin</label>
                     <input type="password" name="password" id="password" placeholder="Digite sua senha">
 
